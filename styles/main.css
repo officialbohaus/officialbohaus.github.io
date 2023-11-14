@@ -1,4 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@400;700&display=swap');
+
+
 html {
-    background: rgb(34,193,195);
-    background: linear-gradient(225deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    height: 100%;
+}
+
+body {
+    background: #01161E;
+
+}
+
+.gradient-orb {
+
+
+
+    border-radius: 50%;
+
+    filter: blur(4rem);
+
+    position: absolute;
+    
+}
+
+#orb1 {
+    background: #598392;
+    width: 15rem;
+    height: 12rem;
+    transform: rotate(12deg);
+
+    left: 30rem;
+    top: 25rem;
+
+    z-index: 1;
+}
+
+#orb2 {
+    background: #124559;
+    width: 25rem;
+    height: 20rem;
+    z-index: 2;
+    left: 17rem;
+    top: 18rem;
+
+    transform: rotate(20deg);
+}
+
+#orb3 {
+    background: #598392;
+    width: 13rem;
+    height: 13rem;
+    z-index: 3;
+    left: 13rem;
+    top: 17rem;
+    filter: blur(5rem);
+}
+
+h1 {
+    color: #AEC3B0;
+    font-family: 'Sulphur Point', sans-serif;
+    font-weight: 400;
+    word-spacing: -0.5rem;
+    font-size: 3.5rem;
+    position: absolute;
+    top: 11rem;
+    left: 3rem;
+    
+}
+
+span.highlight {
+    color: #EFF6E0;
+    font-weight:700;
 }
